@@ -1,0 +1,33 @@
+server:
+  port: 8888
+
+logging:
+  file:
+    name: ./log/sample.log
+
+spring:
+  application:
+    name: delay-mq-demo
+  profiles:
+    active: exchange
+  rabbitmq:
+    host: 47.93.30.94
+    port: 5672
+    username: admin
+    password: vide@lwd523146
+  cloud:
+    stream:
+      bindings:
+        delayed-topic-output:
+          destination: delayed-topic-demo
+        delayed-topic-input:
+          destination: delayed-topic-demo
+          group: group-1
+      rabbit:
+        bindings:
+          delayed-topic-input:
+            consumer:
+              delayed-exchange: true
+          delayed-topic-output:
+            producer:
+              delayed-exchange: true
