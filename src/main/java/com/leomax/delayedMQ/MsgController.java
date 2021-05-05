@@ -18,7 +18,7 @@ public class MsgController {
 	@GetMapping("/scs/delayedSender")
 	public String delayedSender() {
 		delayedSender.delayedMessage();
-		return "scs ojbk";
+		return "delay msg ok";
 	}
 
 }
