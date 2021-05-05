@@ -1,4 +1,5 @@
 
+
 # delayed-queue-rabbit
 
 ## Objective
@@ -34,3 +35,8 @@ Ping this API: http://localhost:8888/scs/delayedSender
 Then will logging info will be shown in console.
 
 <div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210505191111.png" width="65%"/></div>
+
+## Appendix
+
+ 1. https://juejin.cn/post/6844904163168485383#heading-11
+ 2.  https://github.com/viturefree/rabbitmq-delay
