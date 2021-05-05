@@ -33,4 +33,4 @@ Ping this API: http://localhost:8888/scs/delayedSender
 
 Then will logging info will be shown in console.
 
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210505191111.png)
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210505191111.png" width="65%"/></div>
