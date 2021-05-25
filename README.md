@@ -1,6 +1,4 @@
 
-
-
 # Distributed-Delayed-Queue
 
 ## Objective
@@ -39,7 +37,7 @@ Then will logging info will be shown in console.
 
 ## Best Practice
 
-Rather than putting all tasks into the delayed queue, especially that will wait for over few weeks, we have better use scheduling tool to fetch the upcoming task then handle it to mq, so that can help relieve the storing load of mq.
+Rather than putting all tasks into the delayed queue, especially that will wait for over few weeks, we have better use [scheduling tool](https://github.com/saLeox/Distributed-Scheduled-Job) to fetch the upcoming task then handle it to mq, so that can help relieve the storing load of mq.
 
 <div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210525115334.png" width="80%"/></div>
 
