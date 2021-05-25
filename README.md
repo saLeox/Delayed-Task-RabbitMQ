@@ -1,6 +1,7 @@
 
 
-# delayed-queue-rabbit
+
+# Distributed-Delayed-Queue
 
 ## Objective
 
@@ -35,6 +36,12 @@ Ping this API: http://localhost:8888/scs/delayedSender
 Then will logging info will be shown in console.
 
 <div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210505191111.png" width="65%"/></div>
+
+## Best Practice
+
+Rather than putting all tasks into the delayed queue, especially that will wait for over few weeks, we have better use scheduling tool to fetch the upcoming task then handle it to mq, so that can help relieve the storing load of mq.
+
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210525115334.png" width="80%"/></div>
 
 ## Appendix
 
